@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Box and text shadow</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        padding: 23px 23px;
+    }
+    .card{
+        padding: 23px 34px 23px 23px;
+        border: 2px solid red;
+        margin: 23px 23px 23px 23px;
+        background-color: burlywood;
+        /* box-shadow: offset-x offset-y color; */
+        box-shadow:-7px -5px 7px 8px rgb(56, 119, 142 , 0.8);
+    }
+    .card h2{
+        box-shadow: 7px 7px 7px red;
+    }
+</style>
+<body>
+    <div class="container">
+     <div class="card" id="card-1">
+        <h2>Card 1</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, cupiditate. Quisquam laborum dolore adipisci ex, esse unde, impedit qui assumenda voluptatum nisi in natus expedita dolor rerum id inventore consectetur!</p>
+     </div>
+     <div class="card" id="card-2">
+        <h2>Card 2</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error pariatur illo impedit. Soluta repudiandae explicabo aspernatur reiciendis deleniti. Cumque, eveniet tempore in rerum consequuntur id fuga doloribus facere voluptatibus illo!</p>
+     </div>
+     <div class="card" id="card-3">
+        <h2>Card 3</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat molestiae commodi fuga modi, quidem pariatur. Quo aperiam assumenda aliquid, veritatis est nemo dolor dolores molestiae suscipit autem dolorum mollitia officiis?</p>
+     </div>
+    
+    </div>
+</body>
+</html>

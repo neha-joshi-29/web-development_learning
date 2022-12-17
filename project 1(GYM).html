@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>GYM</title>
+</head>
+<link rel="stylesheet" href="css/styles.css">
+<style>
+    /* CSS reset */
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg1.jpg');
+        background-repeat: no-repeat ;
+        background-size: cover;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .left{
+    position: absolute;
+    left: 90px;
+    top: 18px;
+    display: inline-block;
+    
+ }
+ .left img{
+    width: 50px;
+    filter: invert(100%);
+     }
+     .left div{
+        line-height: 19px;
+        font-size: 26px;
+        text-align: centre;
+     }
+ .mid{
+    display:block ;
+    width: 50%;
+    margin: 12px auto;
+   
+ }
+ .right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+ }
+ .navbar{
+    display: inline-block;
+ }
+ .navbar li{
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+ }
+ .navbar li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 25px 30px 23px 34px;
+ }
+ .navbar li a:hover,  .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+ }
+ .btn{
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .btn:hover{
+    color: grey;
+
+ }
+ .container{
+   margin: 60px 70px;
+   padding: 80px 40px;
+   width: 40%;
+   border-radius: 10px;
+ }
+ .form-group input{
+    text-align: center;
+    display: block;
+    width: 180px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 11px auto;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ } 
+ .container h1{
+text-align: center;
+}
+.container button{
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    }
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+      <div class="left">
+    <img src="img/logo.jpg" alt="">
+
+      </div>
+      <!-- mid box for navigation -->
+      <div class="mid">
+        <ul class="navbar">
+            <li> <a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">FITNESS CENTRE</a></li>
+            <li><a href="#">CONTACT US</a></li>
+             </ul>
+      </div>
+      <!-- right box for buttons -->
+      <div class="right">
+<button class="btn">Call Us Now</button><button class="btn">EmailUs</button>
+
+      </div>
+    </header>
+    <div class="container">
+      <h1>Best Gym now in Dehradun</h1>
+      <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name">
+
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+            
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+            
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your phone number">
+            
+        </div>
+        <button class="btn">
+            SUBMIT
+        </button>
+      </form>
+    </div>
+    
+</body>
+</html>

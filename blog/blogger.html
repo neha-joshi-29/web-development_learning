@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <title>BLOGGER</title>
+    <style>
+        body{
+            margin: 0%;
+            box-sizing: border-box;
+            /* overflow-x: hidden; */
+
+        }
+        :root{
+          --text-light:#686666da;
+          --bg-color:#0f0f0f;
+          --white:#ffffff;
+         --midnight:#104f55;
+        }
+        .nav{
+            background: white;
+            padding: 0.2em;
+            height: 0rem;
+            min-height: 10vh;
+            /* overflow: hidden; */
+        }
+        .nav .nav-brand a{
+            font-size: 1.6rem;
+            padding: 1rem 0;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .nav .nav-menu{
+            justify-content: space-between;
+        }
+        a{
+            text-decoration: none;
+                color: #3f4954;
+        }
+        .flex-row{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .nav .nav-items{
+             display: flex;
+            margin: 0;
+        }
+        .nav .toggle-collapse{
+            position: absolute;
+            top: 0%;
+            width: 90%;
+            cursor: pointer;
+            display: none;
+        }
+        .nav .toggle-collapse .toggle-icons{
+            display: flex;
+            justify-content: flex-end;
+            padding: 1.7rem 0;
+        }
+        .nav .toggle-collapse .toggle-icons i{
+            font-size: 1.4rem;
+            color: var(--text-light);
+        }
+        ul{
+            list-style-type: none;
+        }
+        .nav .nav-items .nav-link{
+      padding: 1.6rem 1rem;
+      font-size: 1.1rem;
+      position: relative;
+        }
+        .nav .social{
+            padding: 1.4rem 0;
+        }
+        .nav .nav-items .nav-link:hover{
+          background-color: var(--midnight);
+        }
+        .nav .nav-items .nav-link:hover a{
+            color: var(--white);
+        }
+        .nav .social{
+            padding: 0.2rem;
+        }
+        .nav .social:hover{
+            color: #a1c4cf;
+        }
+          @media only screen and (max-width:750px){
+                .nav .nav-menu, .nav .nav-menu{
+                 flex-direction: column;
+                }
+                .nav .toggle-collapse{
+                    display: initial;
+                }
+          }
+              </style>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="#" class="text-gray">BLOGGER</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                <li class="nav-link"><a href="shop.html">HOME</a></li>
+                <li class="nav-link"><a href="blog.html">ARCHIVE</a></li>
+                <li class="nav-link"><a href="about.html">ABOUT</a></li>
+                <li class="nav-link"><a href="contact.html">CONTACT US</a></li>
+               </ul>
+        </div>
+            <div class="social text-gray">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+    </nav>
+    <script src=""></script>
+</body>
+</html>

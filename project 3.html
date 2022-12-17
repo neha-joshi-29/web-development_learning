@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Educate-Transforming Online Education</title>
+    <style>
+    .logo img{
+        height: 80px;
+        border: 2px solid blue;
+        border-radius: 100px;
+    }
+    .navbar{
+        display: flex;
+    }
+    .nav-list {
+    width: 50%;
+    /* background-color: black; */
+    list-style: none;
+    display: flex;
+    
+    }
+    .nav-list li {
+   margin-right: 13px;
+   padding: 23px;
+   font-size: 20px;
+   }
+.nav-list li a{
+    text-decoration: none;
+    color:wheat;
+   }
+   .nav-list li a:hover{
+    cursor: pointer;
+     background-color: grey;
+   }
+   .rightNav{
+    /* background-color: blueviolet; */
+    width: 50%;
+    text-align: right;
+   }
+   #search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin: 20px;
+   }
+   .background{
+  background: rgb(33, 8, 75) url('img/edu.jpg');
+  background-size: cover;
+   }
+.text-big{
+    color: wheat;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list ">
+            <div class="logo"><img src="img/logo edu.jpg" alt="logo"></div>
+            <li><a href="#home"> Home</a> </li>
+            <li><a href="#about"> About</a></li>
+            <li><a href="#services"> Services</a></li>
+            <li><a href="#Contact"> Contact Us</a></li>
+        </ul>
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="first half">
+                <p class="text-big">The future of education is here</p>
+                <p class="text-big">Education is a purposeful activity directed at achieving certain aims, such as transmitting knowledge or fostering skills and character traits. These aims may include the development of understanding, rationality, kindness, and honesty.</p>
+                 </div>
+            <div class="second half"></div>
+        </div>
+    </section>
+</body>
+</html>
